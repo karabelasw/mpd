@@ -1,0 +1,5 @@
+﻿
+LOAD DATA LOCAL INFILE 'c:/dev/MPDFines.csv' INTO TABLE parkingmovinginfractions
+FIELDS TERMINATED BY ',' LINES TERMINATED BY '\n' (Code, Description,ShortDescription,Fine);
+
+select * from parkingmovinginfractions;

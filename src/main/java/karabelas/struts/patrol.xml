@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE struts PUBLIC
+        "-//Apache Software Foundation//DTD Struts Configuration 2.0//EN"
+        "http://struts.apache.org/dtds/struts-2.0.dtd">
+
+<struts>
+
+		<!--
+				The package element provides a mechanism by which to group related
+				Struts 2 components, such as actions and results, into logical units.  
+				In this case, we will group them based upon their relationship as 
+				that pertain to the same chapter in the book.  A more natural grouping
+				for real world applications would be by more functional aspects. 
+		-->
+    <package name="patrol" namespace="/jsp/patrol" extends="struts-default">
+					
+				<action name="suspects">
+           			<result>/WEB-INF/jsp/patrol/suspects.jsp</result>           			
+				</action>			  			
+    		   		
+		   		<action name="patrol">
+           			<result>/WEB-INF/jsp/patrol/patrolentry.jsp</result>           			
+				</action>	
+				
+									
+     </package>
+
+</struts>
