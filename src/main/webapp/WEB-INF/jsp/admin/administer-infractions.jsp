@@ -10,7 +10,7 @@
 		</title>
 	</head>
 	<body>
-		<!-- START HEADER -->
+	<!-- START HEADER -->
 	<%@ include file="/header.jsp" %>	
 	<!-- END HEADER -->			
 	<br/>
