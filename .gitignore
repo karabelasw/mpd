@@ -1,6 +1,5 @@
-build
-
-deploy
-.settings
+build/
+deploy/
+.settings/
 mpd.war
-target
+target/
