@@ -3,3 +3,5 @@ deploy/
 .settings/
 mpd.war
 target/
+.classpath
+.project

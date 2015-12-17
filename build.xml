@@ -32,7 +32,7 @@
 			<include name="**/*.jsp"/>
 	</fileset>
 
-	<target name="all" depends="clean, compile, prep, deploy, Unleash-WAR">
+	<target name="all" depends="print-version, clean, compile, prep, deploy, Unleash-WAR">
 		<echo>*******BUILD ALL *********</echo>
 	
 	</target>   
