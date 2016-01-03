@@ -1,3 +1,4 @@
+
 package karabelas.ajax;
 
 import java.io.IOException;
@@ -37,10 +38,7 @@ public class UpdateFine extends HttpServlet {
 				response.getWriter().print(fineValue);				
 		}else{
 				response.getWriter().print("Error: Must provide a numerical value");
-		}
-			
-		
-			
+		}			
 		
 		log4J.debug("server received---->" + combinedName);
 		
